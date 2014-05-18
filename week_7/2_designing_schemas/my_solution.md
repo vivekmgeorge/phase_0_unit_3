@@ -6,7 +6,7 @@
 
 ## Release 0: Student Roster Schema
 <!-- display your image inline here -->
-
+(https://github.com/vivekmgeorge/phase_0_unit_3/blob/master/week_7/imgs/schema_design(v1).jpgraw=true "my initial schema design")
 
 ## Release 1: One to Many Schema
 <!-- display your image inline here -->
