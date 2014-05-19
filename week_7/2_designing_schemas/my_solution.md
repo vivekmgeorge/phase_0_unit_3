@@ -14,7 +14,7 @@
 
 ## Release 2: One to One Schema
 <!-- display your image inline here -->
-
+(https://github.com/vivekmgeorge/phase_0_unit_3/blob/master/week_7/imgs/schema_design(v3).png?raw=true "third shema image")
 
 ## Release 3: Many to Many Schema
 <!-- display your image inline here -->
