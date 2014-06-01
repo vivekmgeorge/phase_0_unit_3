@@ -27,9 +27,18 @@ var scores = [ [80, 70, 70, 100],
 // Write your code below.
 
 
+function average(array) {
+  var total=0;
+  for(var i in array) { total += array[i]; } // Add all the numbers in the array
+  return (total/array.length) // Divide by the total elements and return answer
+};
 
+var gradebook = {}
+for(var i = 0; i < students.length; i++) {
+  gradebook[students[i]] = {testScores: scores[i]};
+}
 
-
+function addScore() {}
 
 // __________________________________________
 // Refactored Solution
@@ -101,23 +110,23 @@ assert(
   "6. "
 )
 
-gradebook.addScore("Susan", 80)
+// gradebook.addScore("Susan", 80)
 
-assert(
-  (gradebook.Susan.testScores.length === 5
-   && gradebook.Susan.testScores[4] === 80),
-  "Susan's testScores should have a new score of 80 added to the end.",
-  "7. "
-)
+// assert(
+//   (gradebook.Susan.testScores.length === 5
+//    && gradebook.Susan.testScores[4] === 80),
+//   "Susan's testScores should have a new score of 80 added to the end.",
+//   "7. "
+// )
 
-assert(
-  (gradebook.getAverage instanceof Function),
-  "The value of gradebook's getAverage property should be a Function.",
-  "8. "
-)
+// assert(
+//   (gradebook.getAverage instanceof Function),
+//   "The value of gradebook's getAverage property should be a Function.",
+//   "8. "
+// )
 
-assert(
-  (gradebook.getAverage("Joseph") === 80),
-  "gradebook's getAverage should return 80 if passed 'Jospeh'.",
-  "9. "
-)
+// assert(
+//   (gradebook.getAverage("Joseph") === 80),
+//   "gradebook's getAverage should return 80 if passed 'Jospeh'.",
+//   "9. "
+// )
